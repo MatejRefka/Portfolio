@@ -1,65 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Matej Refka</title>
-   <link rel="stylesheet" href="style.css"/>
+   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-<img src="images/header.png">
 
-<p>I really like writing code. Especially in C#.</p>
-<hr />
+   <header class="mainHeaderContainer">
 
-<p>IDE Themes (web app)</p>
-<p>Web application which converts IDE environment color theme to a different, user-defined IDE. </p>
-<button>live demo</button>
-<button>Source code</button>
-<button>demo</button>
-<button>more info</button>
-<hr/>
+      <img class="mainHeaderImg" src="images/header.png">
 
-<p>Calendar Manager (web app)</p>
-<p>Calendar manager and calendar booking web application. Integrated with Google Calendar.  </p>
-<button>Documentation</button>
-<button>Source code</button>
-<button>demo</button>
-<button>more info</button>
-<hr/>
+      <p class="mainSubheading">I really like writing code. Especially in C#.</p>
 
-<p>Sens (desktop app)</p>
-<p>Web application which converts IDE environment color theme to a different, user-defined IDE. </p>
-<button>Release</button>
-<button>Source code</button>
-<button>demo</button>
-<button>more info</button>
-<hr/>
+   </header>
 
-<!--image slide show 1-->
-<p>IDE Themes</p>
-<p>ASP.NET web application</p>
-<p>MVC design pattern</p>  
-<p>SQL Server storing </p>  
-<hr/>
+   <section class="projectContainer">
 
-<!--image slide show 3-->
-<p>Calendar Manager</p>
-<p>ASP.NET web application</p>
-<p>MVC architecture</p>  
-<p></p> 
-<hr/>
+      <article class="projectBox">
+         <h3>IDE Themes (ASP.NET web app)</h3>
+         <p>Web application which converts IDE environment color theme to a different, user-defined IDE. </p>
+         <p>MVC design pattern</p>
+         <p>SQL Server storing theme colors</p>
+         <p>Chart.js JavaScript library</p>
+         <button>Live demo</button>
+         <button>Source code</button>
+         <button>Video demo</button>
+      </article>
 
-<!--image slide show 3-->
-<p>Sens</p>
-<p>WPF desktop application</p>
-<p>MVVM architecture</p>  
-<p></p> 
-<hr/>
+      <article class="projectBox">
+         <h3>Calendar Manager (ASP.NET web app)</h3>
+         <p>Calendar manager and calendar booking web application. Integrated with Google Calendar. </p>
+         <p>MVC design pattern</p>
+         <p>Google Calendar API integration</p>
+         <p>SQL Server storing user tokens</p>
+         <p>OAuth 2.0 protocol implementation</p>
+         <button>Documentation</button>
+         <button>Source code</button>
+         <button>Video demo</button>
+      </article>
 
+      <article class="projectBox">
+         <h3>Sens (WPF desktop application)</h3>
+         <p>Sensitivity management and conversion desktop application for video games. </p>
+         <p>MVVM design pattern</p>
+         <p>SQLite server-less database embedded in the client app</p>
+         <p>Squirell auto-updates from GitHub releases</p>
+         <button><img class="buttonIcon" src="images/iconRelease.png">Release</button>
+         <button>Source code</button>
+         <button>Video demo</button>
+      </article>
+
+      <article class="projectBox invisible" >
+      </article>
+
+   </section>
+
+   <footer>
+      <hr>
+      <p>Business inquiries: matejrefka@gmail.com</p>
+      <p>&copy; 2021 Matej Refka.</p>
+   </footer>
 
 </body>
+
 </html>
