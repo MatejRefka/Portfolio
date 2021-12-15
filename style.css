@@ -1,34 +1,40 @@
 /*
 Open Sans Light
-2e281f black
-93252a red
-ea8b54 orange
-eda27c light orange
+0B0014 black <--main
+F5E9E2 white <--main
+773344 red1
+D44D5C red2 <--main
+E3B5A4 light orange 
 */
 
 body{
+   position: realtive;
    color: #F5E9E2;
    font-family: 'Open Sans', sans-serif;
    background: #0B0014;
    font-size: medium;
 }
+footer{
+   text-align: center;
+}
 
 /*MAIN*/
+
+.headerContentContainer{
+   min-height: 93vh;
+}
 .mainHeaderContainer{
    margin: auto;
-   margin-top: 5vw;
-   margin-bottom: 3vw;
+   padding-top: 5vw;
+   margin-bottom: 2vw;
    display:flex;
    flex-direction: column;
    max-width: 600px;
 }
 
-.mainHeaderImg{
-}
-
 .mainSubheading{
-   margin-left: 12px;
-   font-size: larger;
+   margin-left: 10px;
+   font-size: 20px;
    font-weight: 500;
 }
 
@@ -41,7 +47,6 @@ body{
    display:flex;
    flex-direction: row;
    flex-wrap: wrap;
-
 }
 
 .projectBox{
@@ -52,31 +57,58 @@ body{
    margin: 0 10px 0 10px;
    flex-grow: 1;
    flex-basis: 30%;
+   margin-bottom: 10px;
 }
 
 .projectBox h3{
    font: weight 600;
 }
-.projectBox button{
-   display: inline-block;
+.projectBox p{
+   text-align: left;
+   padding-left: 25px;
+   padding-right: 20px;
+}
+.projectBox ul{
+   text-align: left;
+   list-style-type:circle;
+   padding-right: 20px;
+}
+.projectBox li{
+   margin: 5px 0;
+}
+.projectLinks{
+   text-align: left;
+   padding-left: 25px;
+   padding-bottom: 15px;
+}
+.projectBox a{
+   text-decoration: none;
    font-size: medium;
    background: #D44D5C;
+   margin-bottom: 5px;
    border: 0;
    border-radius: 4px;
    color: #F5E9E2;
    display: inline-flex;
-  align-items: center; 
+   align-items: center; 
+   padding: 2px 8px 2px 3px;
 }
 .buttonIcon{
    float:left;
    width:30px;
    margin-right: 5px;
 }
-/*HELPER*/
+
+/*HELPERS*/
 
 .invisible{
    border: 0;
 }
 
+/*SELECTORS*/
 
+.projectBox a:hover{
+   cursor: pointer;
+   background: #773344;
+}
 
