@@ -9,9 +9,9 @@ E3B5A4 light orange
 
 body{
    color: #F5E9E2;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Poppins', sans-serif;
    background: #0B0014;
-   font-size: medium;
+   font-size: 16px;
 }
 footer{
    text-align: center;
@@ -33,7 +33,7 @@ footer{
 
 .mainSubheading{
    margin-left: 10px;
-   font-size: 20px;
+   font-size: 24px;
    font-weight: 500;
 }
 
@@ -82,7 +82,7 @@ footer{
 }
 .projectBox a{
    text-decoration: none;
-   font-size: medium;
+   font-size: 16px;
    background: #D44D5C;
    margin-bottom: 5px;
    border: 0;
@@ -91,6 +91,7 @@ footer{
    display: inline-flex;
    align-items: center; 
    padding: 2px 8px 2px 3px;
+   min-width:120px;
 }
 .buttonIcon{
    float:left;
